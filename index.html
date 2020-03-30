@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Sen:400,700,800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+            <div class="search-container">
+                <input type="text" autocomplete="off" class="search-box" placeholder="Seach for a city..." required>
+                <button id="search" class="search-btn">Find</button>
+            </div>
+            <button id="reset" class="re-set">Reset</button>
+
+        </header>
+        <main>
+            <section class="location">
+                <div class="city"></div>
+                <div class="date"> </div>
+            </section>
+            <section class="current">
+                <div class="temp"><span></span></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
+            </section>
+        </main>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
